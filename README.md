@@ -1,4 +1,4 @@
-# Traffic Signs Classification (CNN)
+# Traffic Signs Classification using Convolutional Neural Networks(CNN) 
 
 Traffic sign classification is an essential component of autonomous vehicles and intelligent transportation systems.  
 This repository contains a Jupyter notebook that implements a convolutional neural network (CNN) to classify traffic sign images and compares two preprocessing techniques to evaluate their impact on model performance.

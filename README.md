@@ -92,5 +92,5 @@ Early stopping and model checkpointing are included to prevent overfitting.
    
 ## Install Dependencies 
    ```bash
-   pip install -r requirements.txt
+   pip install -r Requirements.txt
    ```

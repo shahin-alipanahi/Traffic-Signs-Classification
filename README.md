@@ -84,13 +84,13 @@ Early stopping and model checkpointing are included to prevent overfitting.
 ---
 
 ## How to run
-1. Clone the repository:
+   Clone the repository:
    ```bash
    git clone https://github.com/shahin-alipanahi/Traffic-Signs-Classification.git
    cd Traffic-Signs-Classification
    ```
    
 ## Install Dependencies 
-```bash
- pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```

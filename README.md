@@ -90,3 +90,7 @@ Early stopping and model checkpointing are included to prevent overfitting.
    cd Traffic-Signs-Classification
    ```
    
+## Install Dependencies 
+```bash
+ pip install -r requirements.txt
+   ```

@@ -51,3 +51,42 @@ The notebook is organized into sections (typical ordering):
 
 ## Data
 The notebook expects a kaggle image dataset of traffic signs: [valentynsichkar/traffic-signs-preprocessed](https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-preprocessed)
+
+Adjust paths inside the notebook as needed.
+
+---
+
+## Preprocessing techniques
+This project compares two preprocessing approaches (implemented and evaluated in the notebook). Examples of preprocessing steps:
+- Pipeline A (Baseline): Resize images → convert to RGB → scale pixel values (0–1) → basic augmentations (flip, rotate).  
+- Pipeline B (Enhanced): Resize → contrast/histogram equalization or CLAHE → color normalization → more aggressive augmentation.  
+
+The notebook contains the exact implementations and code to switch between these pipelines during training.
+
+---
+
+## Model architecture
+A straightforward CNN is implemented in the notebook (Conv → ReLU → Pool → Dropout → Dense). The notebook includes:
+- layer-by-layer model definition,
+- model.summary(),
+- parameter counts and rationale for design choices.
+
+---
+
+## Training & evaluation
+- Loss: categorical crossentropy  
+- Optimizer: Adam  
+- Metrics: accuracy, precision, recall, F1  
+- Visualization: training/validation curves, confusion matrix, classification report, sample predictions  
+
+Early stopping and model checkpointing are included to prevent overfitting.
+
+---
+
+## How to run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shahin-alipanahi/Traffic-Signs-Classification.git
+   cd Traffic-Signs-Classification
+   ```
+   

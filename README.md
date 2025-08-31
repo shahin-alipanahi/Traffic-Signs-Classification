@@ -3,7 +3,6 @@
 Traffic sign classification is an essential component of autonomous vehicles and intelligent transportation systems.  
 This repository contains a Jupyter notebook that implements a convolutional neural network (CNN) to classify traffic sign images and compares two preprocessing techniques to evaluate their impact on model performance.
 
-Notebook: [`Proj_cnn.ipynb`](https://github.com/shahin-alipanahi/Traffic-Signs-Classification/blob/main/Proj_cnn.ipynb)
 
 ---
 
@@ -35,7 +34,7 @@ The main aim is to demonstrate how preprocessing choices affect classification a
 ---
 
 ## Key Features
-- Clean, documented Jupyter notebook (`Proj_cnn.ipynb`) with end-to-end pipeline.
+- Documented Jupyter notebook with end-to-end pipeline.
 - Comparison of two preprocessing approaches and their effect on model performance.
 - Standard training / validation split, metrics (accuracy, precision, recall, F1), and visualizations.
 - Instructions to reproduce experiments locally.
@@ -56,4 +55,4 @@ The notebook is organized into sections (typical ordering):
 ---
 
 ## Data
-The notebook expects a kaggle image dataset of traffic signs: 
+The notebook expects a kaggle image dataset of traffic signs: [valentynsichkar/traffic-signs-preprocessed](https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-preprocessed)

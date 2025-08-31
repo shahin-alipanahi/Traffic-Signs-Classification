@@ -14,11 +14,6 @@ This repository contains a Jupyter notebook that implements a convolutional neur
 - [Preprocessing techniques](#preprocessing-techniques)  
 - [Model architecture](#model-architecture)  
 - [Training & evaluation](#training--evaluation)  
-- [How to run](#how-to-run)  
-- [Requirements](#requirements)  
-- [Results & visualizations](#results--visualizations)  
-- [Contributing](#contributing)  
-- [License & Contact](#license--contact)
 
 ---
 
